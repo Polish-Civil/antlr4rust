@@ -25,15 +25,5 @@ once_cell = "^1.2"
 typed-arena = "^2.0"
 better_any = "=0.1"
 parking_lot = "0.11"
-#qcell = { path="../qcell" }
 
 [lib]
-
-#[[test]]
-#name = "my_test"
-#path="tests/my_test.rs"
-
-
-[profile.release]
-#opt-level = 3
-#debug = true
